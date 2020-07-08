@@ -12,8 +12,17 @@
         display: inline-block;
         width: 1000px;
         margin: 0 calc(50% - 500px);
-        background-color: red;
     }
+        .conteiner > .content > .column-left {
+            display: inline-block;
+            width: 50%;
+            float: left;
+        }
+        .conteiner > .content > .column-right {
+            display: inline-block;
+            width: 40%;
+            float: right;
+        }
 
 @media ( max-width: 1100px ) {
     .conteiner > .content {
@@ -41,4 +50,11 @@
         width: 100%;
         margin: 0;
         background-color: aqua;
-}
+        }
+            .conteiner > .content > .column-left {
+                width: 100%;
+                margin-bottom: 60px;
+            }
+            .conteiner > .content > .column-right {
+                width: 100%;
+            }
