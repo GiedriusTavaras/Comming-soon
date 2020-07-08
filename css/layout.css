@@ -7,7 +7,6 @@
         display: inline-block;
         width: 600px;
         margin: 0 calc(50% - 300px);
-        background-color: rgb(164, 250, 36);
     }
     .conteiner > .content {
         display: inline-block;
