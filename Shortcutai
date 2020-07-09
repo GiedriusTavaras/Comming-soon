@@ -92,3 +92,4 @@ background-attachment: fixed - juda tekstas skrolinant, bet foto lieka stabili
 
 objekt positinio - center
 objekt fit (kaip beckground positinio) - contain - skirta nuotraukom 
+::before ::after - psiaudo elementas
