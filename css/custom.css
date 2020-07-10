@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .bg-blue {
     background-color: #1DB6F1;
 }
@@ -31,9 +34,12 @@
         .hero-content > .clock {
             margin-bottom: 60px;
         }
-        .hero-content > .forma {
+        .hero-content > .form {
             margin-bottom: 20px;
         }
+            .hero-content > .form > input{
+                background-color: transparent;
+            }
 #main-content {
 
 }
@@ -48,11 +54,19 @@
         line-height: 22px;
         color: #555;
     }
+    
+        #main-content .form > .btn {
+            float: right;
+        }
+    
 
 .footer-container {
     padding-top: 0;
     text-align: center;
 }
+    .footer-container > .content {
+        position: relative;
+    }
     .icons-list {
         display: inline-block;
         margin-bottom: 40px;
@@ -62,7 +76,6 @@
     }
         .icons-list > .fa {
             width: 50px;
-            /* padding: 10px; */
             font-size: 24px;
             line-height: 50px;
         }
@@ -116,6 +129,20 @@
     text-decoration: none;
     color: white;
 }
+.back-to-top {
+    background-color: #E91E60;
+    color: white;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+    .back-to-top:hover {
+        box-shadow: 0 2px 5px black;
+    }
 @media (max-width: 700px) {
     .footer-bottom {
     width: 100%;
