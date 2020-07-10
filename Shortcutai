@@ -95,3 +95,16 @@ objekt fit (kaip beckground positinio) - contain - skirta nuotraukom
 ::before ::after - psiaudo elementas
 https://fontawesome.com/v4.7.0/icon/facebook - iconos, tik pirma reikia atsisiusti ir isikelti i projekta
 
+
+kaip geriausia paleisti Java Scripta projekte, pirma duomenys, tada funkcija ir tada veiksmas: data, function, action.
+JS failas Exportuoti gali tik viena dalykja
+
+{} - objektas
+[] - rejus
+ieskoti vietos i kuria kazka ikelti is JS i HTML - querySelector
+
+html {
+    scroll-behavior: smooth; - mygtukas grazina i virsu graziai
+
+    textholder - sukuria forma kurioje gali rasyti
+}
