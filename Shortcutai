@@ -108,3 +108,5 @@ html {
 
     textholder - sukuria forma kurioje gali rasyti
 }
+
+::placeholder - tuomet keiti placeholder texto parametrus

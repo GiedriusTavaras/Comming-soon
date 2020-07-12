@@ -28,13 +28,11 @@
     .container > .content {
     width: 800px;
     margin: 0 calc(50% - 400px);
-    background-color:orange;
 }
 @media ( max-width: 900px ) {
     .container > .content {
     width: 600px;
     margin: 0 calc(50% - 300px);
-    background-color:pink;
 }
 @media ( max-width: 700px ) {
     .container {
@@ -44,12 +42,10 @@
         display: inline-block;
         width: 100%;
         margin: 0;
-        background-color: aqua;
         }
         .container > .content {
         width: 100%;
         margin: 0;
-        background-color: aqua;
         }
             .container > .content > .column-left {
                 width: 100%;
