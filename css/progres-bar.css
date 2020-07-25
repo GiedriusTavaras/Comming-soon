@@ -1,0 +1,57 @@
+.progres-bar {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+    .progres-bar:last-child {
+        margin-bottom: 0;
+    }
+    .progres-bar > .top {
+        display: inline-block;
+        width: 100%;
+    }
+        .progres-bar > .top > .label {
+            display: inline-block;
+            float: left;
+            margin-bottom: 10px;
+        }
+        .progres-bar > .top > .value {
+            display: inline-block;
+            float: right;
+        }
+    .progres-bar > .bar {
+        display: inline-block;
+        background-color: #ccc;
+        width: 100%;
+        height: 5px;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+        .progres-bar > .bar > .fill {
+            display: inline-block;
+            float: left;
+            width: 90%;
+            height: 100%;
+            background-color: #03a9f3;
+            animation-name: loading;
+            animation-duration: 4s;
+            animation: loading 6s infinite  forwards;
+        }
+            .progres-bar > .bar > .fill > .loading {
+            display: inline-block;
+            float: left;
+            width: 90%;
+            height: 100%;
+            background-color: #03a9f3;
+            animation-name: loading;
+            animation-duration: 4s;
+        }
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
